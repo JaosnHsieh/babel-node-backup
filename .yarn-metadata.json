@@ -1,0 +1,57 @@
+{
+  "manifest": {
+    "name": "babel-node",
+    "version": "7.0.0-beta.3",
+    "description": "Babel command line",
+    "author": {
+      "name": "Sebastian McKenzie",
+      "email": "sebmck@gmail.com"
+    },
+    "homepage": "https://babeljs.io/",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/babel/babel/tree/master/packages/babel-node"
+    },
+    "keywords": [
+      "6to5",
+      "babel",
+      "es6",
+      "transpile",
+      "transpiler",
+      "babel-cli",
+      "compiler"
+    ],
+    "dependencies": {
+      "babel-core": "7.0.0-beta.3",
+      "babel-polyfill": "7.0.0-beta.3",
+      "babel-register": "7.0.0-beta.3",
+      "commander": "^2.8.1",
+      "fs-readdir-recursive": "^1.0.0",
+      "lodash": "^4.2.0",
+      "output-file-sync": "^2.0.0",
+      "v8flags": "^3.0.0"
+    },
+    "devDependencies": {
+      "babel-helper-fixtures": "7.0.0-beta.3"
+    },
+    "bin": {
+      "babel-node": "./bin/babel-node.js"
+    },
+    "_registry": "npm",
+    "_loc": "/home/jasonhsieh/.cache/yarn/v4/npm-babel-node-7.0.0-beta.3-7e3ec0373930f76a5ff993cd6441db109046acb2/node_modules/babel-node/package.json",
+    "readmeFilename": "README.md",
+    "readme": "# babel-node\n\n> A Babel-powered Node.js CLI\n\nbabel-node is a CLI that works exactly the same as the Node.js CLI, with the added benefit of compiling with Babel presets and plugins before running it.\n\n## Install\n\n```sh\nnpm install --save-dev babel-node\n```\n\n## Usage\n\n```sh\nbabel-node [options] [ -e script | script.js ] [arguments]\n```\n"
+  },
+  "artifacts": [],
+  "remote": {
+    "resolved": "https://registry.yarnpkg.com/babel-node/-/babel-node-7.0.0-beta.3.tgz#7e3ec0373930f76a5ff993cd6441db109046acb2",
+    "type": "tarball",
+    "reference": "https://registry.yarnpkg.com/babel-node/-/babel-node-7.0.0-beta.3.tgz",
+    "hash": "7e3ec0373930f76a5ff993cd6441db109046acb2",
+    "registry": "npm",
+    "packageName": "babel-node"
+  },
+  "registry": "npm",
+  "hash": "7e3ec0373930f76a5ff993cd6441db109046acb2"
+}
